@@ -20,11 +20,11 @@ function Header() {
         <Navigation className={s.nav} />
         <Link className={s.brand} to="/">
           <img src={require('./logo-small.png')} width="38" height="38" alt="React" />
-          <span className={s.brandTxt}>Your Company</span>
+          <span className={s.brandTxt}>EJ's Inc.</span>
         </Link>
         <div className={s.banner}>
-          <h1 className={s.bannerTitle}>React</h1>
-          <p className={s.bannerDesc}>Complex web apps made easy</p>
+          <h1 className={s.bannerTitle}>Image Graph</h1>
+          <p className={s.bannerDesc}>Une nouvelle technologie qui rend les statistiques plus conviviales </p>
         </div>
       </div>
     </div>
