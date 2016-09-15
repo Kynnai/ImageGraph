@@ -3,11 +3,10 @@
 
 build
 
-.idea/
 node_modules
 ncp-debug.log
 npm-debug.log
 
 .idea/jsLibraryMappings.xml
 .idea/vcs.xml
-npm-debug.log.3384664889
+.idea

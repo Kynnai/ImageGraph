@@ -13,11 +13,11 @@ import NewsItemType from '../types/NewsItemType';
 
 // React.js News Feed (RSS)
 const url = 'http://ajax.googleapis.com/ajax/services/feed/load' +
-            '?v=1.0&num=10&q=https://reactjsnews.com/feed.xml';
+            '?v=1.0&num=10&q=http://ejsinc.blogspot.ca/';
 
 let items = [];
 let lastFetchTask;
-let lastFetchTime = new Date(1970, 0, 1);
+let lastFetchTime = new Date(2016, 0, 1);
 
 const news = {
   type: new List(NewsItemType),

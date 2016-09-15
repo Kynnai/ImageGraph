@@ -16,17 +16,7 @@ function Home({ news }) {
     <div className={s.root}>
       <div className={s.container}>
         <h1 className={s.title}>React.js News</h1>
-        <ul className={s.news}>
-          {news.map((item, index) => (
-            <li key={index} className={s.newsItem}>
-              <a href={item.link} className={s.newsTitle}>{item.title}</a>
-              <span
-                className={s.newsDesc}
-                dangerouslySetInnerHTML={{ __html: item.contentSnippet }}
-              />
-            </li>
-          ))}
-        </ul>
+          <p>Visitez notre <a href="http://ejsinc.blogspot.ca/">Blog</a></p>
       </div>
     </div>
   );
