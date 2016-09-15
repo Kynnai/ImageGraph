@@ -24,7 +24,7 @@ function Header() {
         </Link>
         <div className={s.banner}>
           <h1 className={s.bannerTitle}>Image Graph</h1>
-          <p className={s.bannerDesc}>Une nouvelle technologie qui rend les statistiques plus conviviales </p>
+          <p className={s.bannerDesc}>Une technologie qui rend les statistiques plus conviviales </p>
         </div>
       </div>
     </div>

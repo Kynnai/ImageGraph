@@ -15,6 +15,6 @@ export const path = '/';
 export const action = async (state) => {
   const response = await fetch('/graphql?query={news{title,link,contentSnippet}}');
   const { data } = await response.json();
-  state.context.onSetTitle('Image Graph - Une nouvelle technologie qui rend les statistiques plus conviviales');
+  state.context.onSetTitle('Image Graph - Une technologie qui rend les statistiques plus conviviales');
   return <Home news={data.news} />;
 };
