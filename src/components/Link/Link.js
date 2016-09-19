@@ -18,7 +18,7 @@ function isModifiedEvent(event) {
   return !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);
 }
 
-class Link extends Component { // eslint-disable-line react/prefer-stateless-function
+class Link extends Component {
 
   static propTypes = {
     to: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
@@ -27,29 +27,28 @@ class Link extends Component { // eslint-disable-line react/prefer-stateless-fun
 
   handleClick = (event) => {
     let allowTransition = true;
+    let clickResult;
 
-    if (this.props.onClick) {
-      this.props.onClick(event);
+    if (this.props && this.props.onClick) {
+      clickResult = this.props.onClick(event);
     }
 
     if (isModifiedEvent(event) || !isLeftClickEvent(event)) {
       return;
     }
 
-    if (event.defaultPrevented === true) {
+    if (clickResult === false || event.defaultPrevented === true) {
       allowTransition = false;
     }
 
     event.preventDefault();
 
     if (allowTransition) {
-      if (this.props.to) {
+      const link = event.currentTarget;
+      if (this.props && this.props.to) {
         Location.push(this.props.to);
       } else {
-        Location.push({
-          pathname: event.currentTarget.pathname,
-          search: event.currentTarget.search,
-        });
+        Location.push({ pathname: link.pathname, search: link.search });
       }
     }
   };
