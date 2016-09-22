@@ -1,20 +1,2 @@
-# Include your project-specific ignores in this file
-# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
-
-build
-
-node_modules
-ncp-debug.log
-npm-debug.log
-
-.idea/jsLibraryMappings.xml
-.idea/vcs.xml
-.idea
-
-AncienCode/V1/node_modules
-AncienCode/V1/ncp-debug.log
-AncienCode/V1/npm-debug.log
-
-AncienCode/V1/.idea/jsLibraryMappings.xml
-AncienCode/V1/.idea/vcs.xml
-AncienCode/V1/.idea
+node_modules/
+build/
