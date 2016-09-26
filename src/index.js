@@ -8,9 +8,7 @@ import {ImageGraph} from 'image-graph';
 
 @View({
   directives: [ImageGraph],
-  template: `
-    <image-graph></image-graph>
-  `
+  template: `<image-graph></image-graph>`
 })
 
 class Main {
