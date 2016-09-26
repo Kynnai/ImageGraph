@@ -69,16 +69,21 @@ export class ImageGraph {
           .attr("y", 6)
           .attr("dy", ".71em")
           .style("text-anchor", "end")
-          .text("Sepal Length (cm)")
+          .text("Sepal Length (cm)");
 
-      svg.selectAll(".dot")
-          .data(data)
-          .enter().append("circle")
-          .attr("class", "dot")
-          .attr("r", 3.5)
-          .attr("cx", function(d) { return x(d.sepalWidth); })
-          .attr("cy", function(d) { return y(d.sepalLength); })
-          .style("fill", function(d) { return color(d.species); });
+      //svg.selectAll(".dot")
+      //    .data(data)
+      //    .enter().append("circle")
+      //    .attr("class", "dot")
+      //    .attr("r", 3.5)
+      //    .attr("cx", function(d) { return x(d.sepalWidth); })
+      //    .attr("cy", function(d) { return y(d.sepalLength); })
+      //    .style("fill", function(d) { return color(d.species); });
+
+      svg.selectAll(".dot").append("svg:image")
+          .attr("xlink:href", "http://www.clker.com/cliparts/1/4/5/a/1331068897296558865Sitting%20Racoon.svg")
+          .attr("width", 200)
+          .attr("height", 200);
 
       var legend = svg.selectAll(".legend")
           .data(color.domain())
