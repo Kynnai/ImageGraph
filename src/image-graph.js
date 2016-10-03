@@ -29,34 +29,35 @@ export class ImageGraph {
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    var x = d3.scale.linear()
-        .range([0, width]);
-
-    var y = d3.scale.linear()
-        .range([height, 0]);
-
     var color = d3.scale.category10();
-
-
-
-    //Set Axis
-    var xAxis = d3.svg.axis()
-        .scale(x)
-        .orient("bottom");
-
-    var yAxis = d3.svg.axis()
-        .scale(y)
-        .orient("left")
-        .ticks(5);
 
 
     //Load data
     d3.json("data.json", function(error, data) {
       if (error) throw error;
 
-      x.domain(d3.extent(data, function(d) { return d.Weight; })).nice();
-      y.domain(d3.extent(data, function(d) { return d.Height; })).nice();
+      console.log(width);
+      console.log(height);
 
+      var x = d3.scale.linear()
+          .range([0, width])
+          .domain([d3.min(data, function(d) { return d.Weight - 5; }),
+            d3.max(data, function(d) { return d.Weight + 5; })]);
+
+      var y = d3.scale.linear()
+          .range([height, 0])
+          .domain([d3.min(data, function(d) { return d.Height - 5; }),
+            d3.max(data, function(d) { return d.Height + 5; })]);
+
+      //Set Axis
+      var xAxis = d3.svg.axis()
+          .scale(x)
+          .orient("bottom");
+
+      var yAxis = d3.svg.axis()
+          .scale(y)
+          .orient("left")
+          .ticks(5);
 
       //Load axis
       svg.append("g")
@@ -96,6 +97,8 @@ export class ImageGraph {
 
       svg.call(tip);
 
+
+      //Place Data
       var defs = svg.append('svg:defs');
 
       data.forEach(function(d, i) {
@@ -133,25 +136,6 @@ export class ImageGraph {
       //    })
       //    .on('mouseover', tip.show)
       //    .on('mouseout', tip.hide);
-
-      var legend = svg.selectAll(".legend")
-          .data(color.domain())
-          .enter().append("g")
-          .attr("class", "legend")
-          .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
-
-      legend.append("rect")
-          .attr("x", width - 18)
-          .attr("width", 18)
-          .attr("height", 18)
-          .style("fill", color);
-
-      legend.append("text")
-          .attr("x", width - 24)
-          .attr("y", 9)
-          .attr("dy", ".35em")
-          .style("text-anchor", "end")
-          .text(function(d) { return d; });
 
     });
   }
