@@ -1,5 +1,4 @@
 [
-  /* 1 */
   {
     "_id" : "57ebb3c5e8a0bda557420f6a",
     "key" : "Urgot",
@@ -25,8 +24,6 @@
     },
     "title" : "Urgot"
   },
-
-  /* 2 */
   {
     "_id" : "57ebb3c5e8a0bda557420f6b",
     "key" : "Aatrox",
@@ -52,8 +49,6 @@
     },
     "title" : "Aatrox"
   },
-
-  /* 3 */
   {
     "_id" : "57ebb3c5e8a0bda557420f6c",
     "key" : "Galio",
@@ -79,8 +74,6 @@
     },
     "title" : "Galio"
   },
-
-  /* 4 */
   {
     "_id" : "57ebb3c5e8a0bda557420f6d",
     "key" : "Mordekaiser",
@@ -106,8 +99,6 @@
     },
     "title" : "Mordekaiser"
   },
-
-  /* 5 */
   {
     "_id" : "57ebb3c5e8a0bda557420f6e",
     "key" : "Karthus",
@@ -133,8 +124,6 @@
     },
     "title" : "Karthus"
   },
-
-  /* 6 */
   {
     "_id" : "57ebb3c5e8a0bda557420f6f",
     "key" : "Heimerdinger",
@@ -160,8 +149,6 @@
     },
     "title" : "Heimerdinger"
   },
-
-  /* 7 */
   {
     "_id" : "57ebb3c5e8a0bda557420f70",
     "key" : "Singed",
@@ -187,8 +174,6 @@
     },
     "title" : "Singed"
   },
-
-  /* 8 */
   {
     "_id" : "57ebb3c5e8a0bda557420f71",
     "key" : "Quinn",
@@ -214,8 +199,6 @@
     },
     "title" : "Quinn"
   },
-
-  /* 9 */
   {
     "_id" : "57ebb3c5e8a0bda557420f72",
     "key" : "Rammus",
@@ -241,8 +224,6 @@
     },
     "title" : "Rammus"
   },
-
-  /* 10 */
   {
     "_id" : "57ebb3c5e8a0bda557420f73",
     "key" : "Maokai",
@@ -268,8 +249,6 @@
     },
     "title" : "Maokai"
   },
-
-  /* 11 */
   {
     "_id" : "57ebb3c5e8a0bda557420f74",
     "key" : "Chogath",
@@ -295,8 +274,6 @@
     },
     "title" : "Cho'Gath"
   },
-
-  /* 12 */
   {
     "_id" : "57ebb3c5e8a0bda557420f75",
     "key" : "Kled",
@@ -322,8 +299,6 @@
     },
     "title" : "Kled"
   },
-
-  /* 13 */
   {
     "_id" : "57ebb3c5e8a0bda557420f76",
     "key" : "Vladimir",
@@ -349,8 +324,6 @@
     },
     "title" : "Vladimir"
   },
-
-  /* 14 */
   {
     "_id" : "57ebb3c5e8a0bda557420f77",
     "key" : "Sion",
@@ -376,8 +349,6 @@
     },
     "title" : "Sion"
   },
-
-  /* 15 */
   {
     "_id" : "57ebb3c5e8a0bda557420f78",
     "key" : "DrMundo",
@@ -403,8 +374,6 @@
     },
     "title" : "Dr. Mundo"
   },
-
-  /* 16 */
   {
     "_id" : "57ebb3c5e8a0bda557420f79",
     "key" : "Nasus",
@@ -430,8 +399,6 @@
     },
     "title" : "Nasus"
   },
-
-  /* 17 */
   {
     "_id" : "57ebb3c5e8a0bda557420f7a",
     "key" : "Garen",
@@ -457,8 +424,6 @@
     },
     "title" : "Garen"
   },
-
-  /* 18 */
   {
     "_id" : "57ebb3c5e8a0bda557420f7b",
     "key" : "Swain",
@@ -484,8 +449,6 @@
     },
     "title" : "Swain"
   },
-
-  /* 19 */
   {
     "_id" : "57ebb3c5e8a0bda557420f7c",
     "key" : "Poppy",
@@ -511,8 +474,6 @@
     },
     "title" : "Poppy"
   },
-
-  /* 20 */
   {
     "_id" : "57ebb3c5e8a0bda557420f7d",
     "key" : "Akali",
@@ -538,8 +499,6 @@
     },
     "title" : "Akali"
   },
-
-  /* 21 */
   {
     "_id" : "57ebb3c5e8a0bda557420f7e",
     "key" : "Volibear",
@@ -565,8 +524,6 @@
     },
     "title" : "Volibear"
   },
-
-  /* 22 */
   {
     "_id" : "57ebb3c5e8a0bda557420f7f",
     "key" : "Cassiopeia",
@@ -592,8 +549,6 @@
     },
     "title" : "Cassiopeia"
   },
-
-  /* 23 */
   {
     "_id" : "57ebb3c5e8a0bda557420f80",
     "key" : "Yorick",
@@ -619,8 +574,6 @@
     },
     "title" : "Yorick"
   },
-
-  /* 24 */
   {
     "_id" : "57ebb3c5e8a0bda557420f81",
     "key" : "TahmKench",
@@ -646,8 +599,6 @@
     },
     "title" : "Tahm Kench"
   },
-
-  /* 25 */
   {
     "_id" : "57ebb3c5e8a0bda557420f82",
     "key" : "Illaoi",
@@ -673,8 +624,6 @@
     },
     "title" : "Illaoi"
   },
-
-  /* 26 */
   {
     "_id" : "57ebb3c5e8a0bda557420f83",
     "key" : "Shen",
@@ -700,8 +649,6 @@
     },
     "title" : "Shen"
   },
-
-  /* 27 */
   {
     "_id" : "57ebb3c5e8a0bda557420f84",
     "key" : "Rumble",
@@ -727,8 +674,6 @@
     },
     "title" : "Rumble"
   },
-
-  /* 28 */
   {
     "_id" : "57ebb3c5e8a0bda557420f85",
     "key" : "Ryze",
@@ -754,8 +699,6 @@
     },
     "title" : "Ryze"
   },
-
-  /* 29 */
   {
     "_id" : "57ebb3c5e8a0bda557420f86",
     "key" : "Olaf",
@@ -781,8 +724,6 @@
     },
     "title" : "Olaf"
   },
-
-  /* 30 */
   {
     "_id" : "57ebb3c5e8a0bda557420f87",
     "key" : "Trundle",
@@ -808,8 +749,6 @@
     },
     "title" : "Trundle"
   },
-
-  /* 31 */
   {
     "_id" : "57ebb3c5e8a0bda557420f88",
     "key" : "Tryndamere",
@@ -835,8 +774,6 @@
     },
     "title" : "Tryndamere"
   },
-
-  /* 32 */
   {
     "_id" : "57ebb3c5e8a0bda557420f89",
     "key" : "JarvanIV",
@@ -862,8 +799,6 @@
     },
     "title" : "Jarvan IV"
   },
-
-  /* 33 */
   {
     "_id" : "57ebb3c5e8a0bda557420f8a",
     "key" : "Teemo",
@@ -889,8 +824,6 @@
     },
     "title" : "Teemo"
   },
-
-  /* 34 */
   {
     "_id" : "57ebb3c5e8a0bda557420f8b",
     "key" : "Lissandra",
@@ -916,8 +849,6 @@
     },
     "title" : "Lissandra"
   },
-
-  /* 35 */
   {
     "_id" : "57ebb3c5e8a0bda557420f8c",
     "key" : "Nautilus",
@@ -943,8 +874,6 @@
     },
     "title" : "Nautilus"
   },
-
-  /* 36 */
   {
     "_id" : "57ebb3c5e8a0bda557420f8d",
     "key" : "Pantheon",
@@ -970,8 +899,6 @@
     },
     "title" : "Pantheon"
   },
-
-  /* 37 */
   {
     "_id" : "57ebb3c5e8a0bda557420f8e",
     "key" : "XinZhao",
@@ -997,8 +924,6 @@
     },
     "title" : "Xin Zhao"
   },
-
-  /* 38 */
   {
     "_id" : "57ebb3c5e8a0bda557420f8f",
     "key" : "Kayle",
@@ -1024,8 +949,6 @@
     },
     "title" : "Kayle"
   },
-
-  /* 39 */
   {
     "_id" : "57ebb3c5e8a0bda557420f90",
     "key" : "MonkeyKing",
@@ -1051,8 +974,6 @@
     },
     "title" : "Wukong"
   },
-
-  /* 40 */
   {
     "_id" : "57ebb3c5e8a0bda557420f91",
     "key" : "Kennen",
@@ -1078,8 +999,6 @@
     },
     "title" : "Kennen"
   },
-
-  /* 41 */
   {
     "_id" : "57ebb3c5e8a0bda557420f92",
     "key" : "Renekton",
@@ -1105,8 +1024,6 @@
     },
     "title" : "Renekton"
   },
-
-  /* 42 */
   {
     "_id" : "57ebb3c5e8a0bda557420f93",
     "key" : "Jayce",
@@ -1132,8 +1049,6 @@
     },
     "title" : "Jayce"
   },
-
-  /* 43 */
   {
     "_id" : "57ebb3c5e8a0bda557420f94",
     "key" : "Rengar",
@@ -1159,8 +1074,6 @@
     },
     "title" : "Rengar"
   },
-
-  /* 44 */
   {
     "_id" : "57ebb3c5e8a0bda557420f95",
     "key" : "Gnar",
@@ -1186,8 +1099,6 @@
     },
     "title" : "Gnar"
   },
-
-  /* 45 */
   {
     "_id" : "57ebb3c5e8a0bda557420f96",
     "key" : "Fiora",
@@ -1213,8 +1124,6 @@
     },
     "title" : "Fiora"
   },
-
-  /* 46 */
   {
     "_id" : "57ebb3c5e8a0bda557420f97",
     "key" : "Gangplank",
@@ -1240,8 +1149,6 @@
     },
     "title" : "Gangplank"
   },
-
-  /* 47 */
   {
     "_id" : "57ebb3c5e8a0bda557420f98",
     "key" : "Darius",
@@ -1267,8 +1174,6 @@
     },
     "title" : "Darius"
   },
-
-  /* 48 */
   {
     "_id" : "57ebb3c5e8a0bda557420f99",
     "key" : "Irelia",
@@ -1294,8 +1199,6 @@
     },
     "title" : "Irelia"
   },
-
-  /* 49 */
   {
     "_id" : "57ebb3c5e8a0bda557420f9a",
     "key" : "Malphite",
@@ -1321,8 +1224,6 @@
     },
     "title" : "Malphite"
   },
-
-  /* 50 */
   {
     "_id" : "57ebb3c5e8a0bda557420f9b",
     "key" : "Jax",
@@ -1348,8 +1249,6 @@
     },
     "title" : "Jax"
   },
-
-  /* 51 */
   {
     "_id" : "57ebb3c5e8a0bda557420f9c",
     "key" : "Ekko",
@@ -1375,8 +1274,6 @@
     },
     "title" : "Ekko"
   },
-
-  /* 52 */
   {
     "_id" : "57ebb3c5e8a0bda557420f9d",
     "key" : "Yasuo",
@@ -1402,8 +1299,6 @@
     },
     "title" : "Yasuo"
   },
-
-  /* 53 */
   {
     "_id" : "57ebb3c5e8a0bda557420f9e",
     "key" : "Graves",
@@ -1429,8 +1324,6 @@
     },
     "title" : "Graves"
   },
-
-  /* 54 */
   {
     "_id" : "57ebb3c5e8a0bda557420f9f",
     "key" : "Riven",
@@ -1456,8 +1349,6 @@
     },
     "title" : "Riven"
   },
-
-  /* 55 */
   {
     "_id" : "57ebb3c5e8a0bda557420fa0",
     "key" : "Nunu",
@@ -1483,8 +1374,6 @@
     },
     "title" : "Nunu"
   },
-
-  /* 56 */
   {
     "_id" : "57ebb3c5e8a0bda557420fa1",
     "key" : "Aatrox",
@@ -1510,8 +1399,6 @@
     },
     "title" : "Aatrox"
   },
-
-  /* 57 */
   {
     "_id" : "57ebb3c5e8a0bda557420fa2",
     "key" : "Mordekaiser",
@@ -1537,8 +1424,6 @@
     },
     "title" : "Mordekaiser"
   },
-
-  /* 58 */
   {
     "_id" : "57ebb3c5e8a0bda557420fa3",
     "key" : "AurelionSol",
@@ -1564,8 +1449,6 @@
     },
     "title" : "Aurelion Sol"
   },
-
-  /* 59 */
   {
     "_id" : "57ebb3c5e8a0bda557420fa4",
     "key" : "Rammus",
@@ -1591,8 +1474,6 @@
     },
     "title" : "Rammus"
   },
-
-  /* 60 */
   {
     "_id" : "57ebb3c5e8a0bda557420fa5",
     "key" : "Quinn",
@@ -1618,8 +1499,6 @@
     },
     "title" : "Quinn"
   },
-
-  /* 61 */
   {
     "_id" : "57ebb3c5e8a0bda557420fa6",
     "key" : "Warwick",
@@ -1645,8 +1524,6 @@
     },
     "title" : "Warwick"
   },
-
-  /* 62 */
   {
     "_id" : "57ebb3c5e8a0bda557420fa7",
     "key" : "Shyvana",
@@ -1672,8 +1549,6 @@
     },
     "title" : "Shyvana"
   },
-
-  /* 63 */
   {
     "_id" : "57ebb3c5e8a0bda557420fa8",
     "key" : "Maokai",
@@ -1699,8 +1574,6 @@
     },
     "title" : "Maokai"
   },
-
-  /* 64 */
   {
     "_id" : "57ebb3c5e8a0bda557420fa9",
     "key" : "Kindred",
@@ -1726,8 +1599,6 @@
     },
     "title" : "Kindred"
   },
-
-  /* 65 */
   {
     "_id" : "57ebb3c5e8a0bda557420faa",
     "key" : "Chogath",
@@ -1753,8 +1624,6 @@
     },
     "title" : "Cho'Gath"
   },
-
-  /* 66 */
   {
     "_id" : "57ebb3c5e8a0bda557420fab",
     "key" : "Sion",
@@ -1780,8 +1649,6 @@
     },
     "title" : "Sion"
   },
-
-  /* 67 */
   {
     "_id" : "57ebb3c5e8a0bda557420fac",
     "key" : "DrMundo",
@@ -1807,8 +1674,6 @@
     },
     "title" : "Dr. Mundo"
   },
-
-  /* 68 */
   {
     "_id" : "57ebb3c5e8a0bda557420fad",
     "key" : "RekSai",
@@ -1834,8 +1699,6 @@
     },
     "title" : "Rek'Sai"
   },
-
-  /* 69 */
   {
     "_id" : "57ebb3c5e8a0bda557420fae",
     "key" : "Poppy",
@@ -1861,8 +1724,6 @@
     },
     "title" : "Poppy"
   },
-
-  /* 70 */
   {
     "_id" : "57ebb3c5e8a0bda557420faf",
     "key" : "Skarner",
@@ -1888,8 +1749,6 @@
     },
     "title" : "Skarner"
   },
-
-  /* 71 */
   {
     "_id" : "57ebb3c5e8a0bda557420fb0",
     "key" : "Volibear",
@@ -1915,8 +1774,6 @@
     },
     "title" : "Volibear"
   },
-
-  /* 72 */
   {
     "_id" : "57ebb3c5e8a0bda557420fb1",
     "key" : "FiddleSticks",
@@ -1942,8 +1799,6 @@
     },
     "title" : "Fiddlesticks"
   },
-
-  /* 73 */
   {
     "_id" : "57ebb3c5e8a0bda557420fb2",
     "key" : "Udyr",
@@ -1969,8 +1824,6 @@
     },
     "title" : "Udyr"
   },
-
-  /* 74 */
   {
     "_id" : "57ebb3c5e8a0bda557420fb3",
     "key" : "Rumble",
@@ -1996,8 +1849,6 @@
     },
     "title" : "Rumble"
   },
-
-  /* 75 */
   {
     "_id" : "57ebb3c5e8a0bda557420fb4",
     "key" : "Nocturne",
@@ -2023,8 +1874,6 @@
     },
     "title" : "Nocturne"
   },
-
-  /* 76 */
   {
     "_id" : "57ebb3c5e8a0bda557420fb5",
     "key" : "Sejuani",
@@ -2050,8 +1899,6 @@
     },
     "title" : "Sejuani"
   },
-
-  /* 77 */
   {
     "_id" : "57ebb3c5e8a0bda557420fb6",
     "key" : "Olaf",
@@ -2077,8 +1924,6 @@
     },
     "title" : "Olaf"
   },
-
-  /* 78 */
   {
     "_id" : "57ebb3c5e8a0bda557420fb7",
     "key" : "Trundle",
@@ -2104,8 +1949,6 @@
     },
     "title" : "Trundle"
   },
-
-  /* 79 */
   {
     "_id" : "57ebb3c5e8a0bda557420fb8",
     "key" : "JarvanIV",
@@ -2131,8 +1974,6 @@
     },
     "title" : "Jarvan IV"
   },
-
-  /* 80 */
   {
     "_id" : "57ebb3c5e8a0bda557420fb9",
     "key" : "Diana",
@@ -2158,8 +1999,6 @@
     },
     "title" : "Diana"
   },
-
-  /* 81 */
   {
     "_id" : "57ebb3c5e8a0bda557420fba",
     "key" : "MasterYi",
@@ -2185,8 +2024,6 @@
     },
     "title" : "Master Yi"
   },
-
-  /* 82 */
   {
     "_id" : "57ebb3c5e8a0bda557420fbb",
     "key" : "Gragas",
@@ -2212,8 +2049,6 @@
     },
     "title" : "Gragas"
   },
-
-  /* 83 */
   {
     "_id" : "57ebb3c5e8a0bda557420fbc",
     "key" : "Nautilus",
@@ -2239,8 +2074,6 @@
     },
     "title" : "Nautilus"
   },
-
-  /* 84 */
   {
     "_id" : "57ebb3c5e8a0bda557420fbd",
     "key" : "Pantheon",
@@ -2266,8 +2099,6 @@
     },
     "title" : "Pantheon"
   },
-
-  /* 85 */
   {
     "_id" : "57ebb3c5e8a0bda557420fbe",
     "key" : "XinZhao",
@@ -2293,8 +2124,6 @@
     },
     "title" : "Xin Zhao"
   },
-
-  /* 86 */
   {
     "_id" : "57ebb3c5e8a0bda557420fbf",
     "key" : "Shaco",
@@ -2320,8 +2149,6 @@
     },
     "title" : "Shaco"
   },
-
-  /* 87 */
   {
     "_id" : "57ebb3c5e8a0bda557420fc0",
     "key" : "Kayle",
@@ -2347,8 +2174,6 @@
     },
     "title" : "Kayle"
   },
-
-  /* 88 */
   {
     "_id" : "57ebb3c5e8a0bda557420fc1",
     "key" : "Twitch",
@@ -2374,8 +2199,6 @@
     },
     "title" : "Twitch"
   },
-
-  /* 89 */
   {
     "_id" : "57ebb3c5e8a0bda557420fc2",
     "key" : "Evelynn",
@@ -2401,8 +2224,6 @@
     },
     "title" : "Evelynn"
   },
-
-  /* 90 */
   {
     "_id" : "57ebb3c5e8a0bda557420fc3",
     "key" : "MonkeyKing",
@@ -2428,8 +2249,6 @@
     },
     "title" : "Wukong"
   },
-
-  /* 91 */
   {
     "_id" : "57ebb3c5e8a0bda557420fc4",
     "key" : "Rengar",
@@ -2455,8 +2274,6 @@
     },
     "title" : "Rengar"
   },
-
-  /* 92 */
   {
     "_id" : "57ebb3c5e8a0bda557420fc5",
     "key" : "Fizz",
@@ -2482,8 +2299,6 @@
     },
     "title" : "Fizz"
   },
-
-  /* 93 */
   {
     "_id" : "57ebb3c5e8a0bda557420fc6",
     "key" : "Hecarim",
@@ -2509,8 +2324,6 @@
     },
     "title" : "Hecarim"
   },
-
-  /* 94 */
   {
     "_id" : "57ebb3c5e8a0bda557420fc7",
     "key" : "Elise",
@@ -2536,8 +2349,6 @@
     },
     "title" : "Elise"
   },
-
-  /* 95 */
   {
     "_id" : "57ebb3c5e8a0bda557420fc8",
     "key" : "Amumu",
@@ -2563,8 +2374,6 @@
     },
     "title" : "Amumu"
   },
-
-  /* 96 */
   {
     "_id" : "57ebb3c5e8a0bda557420fc9",
     "key" : "Nidalee",
@@ -2590,8 +2399,6 @@
     },
     "title" : "Nidalee"
   },
-
-  /* 97 */
   {
     "_id" : "57ebb3c5e8a0bda557420fca",
     "key" : "Vi",
@@ -2617,8 +2424,6 @@
     },
     "title" : "Vi"
   },
-
-  /* 98 */
   {
     "_id" : "57ebb3c5e8a0bda557420fcb",
     "key" : "Jax",
@@ -2644,8 +2449,6 @@
     },
     "title" : "Jax"
   },
-
-  /* 99 */
   {
     "_id" : "57ebb3c5e8a0bda557420fcc",
     "key" : "Zac",
@@ -2671,8 +2474,6 @@
     },
     "title" : "Zac"
   },
-
-  /* 100 */
   {
     "_id" : "57ebb3c5e8a0bda557420fcd",
     "key" : "Ekko",
@@ -2698,8 +2499,6 @@
     },
     "title" : "Ekko"
   },
-
-  /* 101 */
   {
     "_id" : "57ebb3c5e8a0bda557420fce",
     "key" : "Khazix",
@@ -2725,8 +2524,6 @@
     },
     "title" : "Kha'Zix"
   },
-
-  /* 102 */
   {
     "_id" : "57ebb3c5e8a0bda557420fcf",
     "key" : "Graves",
@@ -2752,8 +2549,6 @@
     },
     "title" : "Graves"
   },
-
-  /* 103 */
   {
     "_id" : "57ebb3c5e8a0bda557420fd0",
     "key" : "LeeSin",
@@ -2779,8 +2574,6 @@
     },
     "title" : "Lee Sin"
   },
-
-  /* 104 */
   {
     "_id" : "57ebb3c5e8a0bda557420fd1",
     "key" : "Galio",
@@ -2806,8 +2599,6 @@
     },
     "title" : "Galio"
   },
-
-  /* 105 */
   {
     "_id" : "57ebb3c5e8a0bda557420fd2",
     "key" : "Mordekaiser",
@@ -2833,8 +2624,6 @@
     },
     "title" : "Mordekaiser"
   },
-
-  /* 106 */
   {
     "_id" : "57ebb3c5e8a0bda557420fd3",
     "key" : "Karthus",
@@ -2860,8 +2649,6 @@
     },
     "title" : "Karthus"
   },
-
-  /* 107 */
   {
     "_id" : "57ebb3c5e8a0bda557420fd4",
     "key" : "Heimerdinger",
@@ -2887,8 +2674,6 @@
     },
     "title" : "Heimerdinger"
   },
-
-  /* 108 */
   {
     "_id" : "57ebb3c5e8a0bda557420fd5",
     "key" : "Taliyah",
@@ -2914,8 +2699,6 @@
     },
     "title" : "Taliyah"
   },
-
-  /* 109 */
   {
     "_id" : "57ebb3c5e8a0bda557420fd6",
     "key" : "AurelionSol",
@@ -2941,8 +2724,6 @@
     },
     "title" : "Aurelion Sol"
   },
-
-  /* 110 */
   {
     "_id" : "57ebb3c5e8a0bda557420fd7",
     "key" : "Talon",
@@ -2968,8 +2749,6 @@
     },
     "title" : "Talon"
   },
-
-  /* 111 */
   {
     "_id" : "57ebb3c5e8a0bda557420fd8",
     "key" : "Ziggs",
@@ -2995,8 +2774,6 @@
     },
     "title" : "Ziggs"
   },
-
-  /* 112 */
   {
     "_id" : "57ebb3c5e8a0bda557420fd9",
     "key" : "Azir",
@@ -3022,8 +2799,6 @@
     },
     "title" : "Azir"
   },
-
-  /* 113 */
   {
     "_id" : "57ebb3c5e8a0bda557420fda",
     "key" : "Chogath",
@@ -3049,8 +2824,6 @@
     },
     "title" : "Cho'Gath"
   },
-
-  /* 114 */
   {
     "_id" : "57ebb3c5e8a0bda557420fdb",
     "key" : "Varus",
@@ -3076,8 +2849,6 @@
     },
     "title" : "Varus"
   },
-
-  /* 115 */
   {
     "_id" : "57ebb3c5e8a0bda557420fdc",
     "key" : "Vladimir",
@@ -3103,8 +2874,6 @@
     },
     "title" : "Vladimir"
   },
-
-  /* 116 */
   {
     "_id" : "57ebb3c5e8a0bda557420fdd",
     "key" : "Xerath",
@@ -3130,8 +2899,6 @@
     },
     "title" : "Xerath"
   },
-
-  /* 117 */
   {
     "_id" : "57ebb3c5e8a0bda557420fde",
     "key" : "Swain",
@@ -3157,8 +2924,6 @@
     },
     "title" : "Swain"
   },
-
-  /* 118 */
   {
     "_id" : "57ebb3c5e8a0bda557420fdf",
     "key" : "Akali",
@@ -3184,8 +2949,6 @@
     },
     "title" : "Akali"
   },
-
-  /* 119 */
   {
     "_id" : "57ebb3c5e8a0bda557420fe0",
     "key" : "Cassiopeia",
@@ -3211,8 +2974,6 @@
     },
     "title" : "Cassiopeia"
   },
-
-  /* 120 */
   {
     "_id" : "57ebb3c5e8a0bda557420fe1",
     "key" : "Kassadin",
@@ -3238,8 +2999,6 @@
     },
     "title" : "Kassadin"
   },
-
-  /* 121 */
   {
     "_id" : "57ebb3c5e8a0bda557420fe2",
     "key" : "Corki",
@@ -3265,8 +3024,6 @@
     },
     "title" : "Corki"
   },
-
-  /* 122 */
   {
     "_id" : "57ebb3c5e8a0bda557420fe3",
     "key" : "Anivia",
@@ -3292,8 +3049,6 @@
     },
     "title" : "Anivia"
   },
-
-  /* 123 */
   {
     "_id" : "57ebb3c5e8a0bda557420fe4",
     "key" : "Zilean",
@@ -3319,8 +3074,6 @@
     },
     "title" : "Zilean"
   },
-
-  /* 124 */
   {
     "_id" : "57ebb3c5e8a0bda557420fe5",
     "key" : "Malzahar",
@@ -3346,8 +3099,6 @@
     },
     "title" : "Malzahar"
   },
-
-  /* 125 */
   {
     "_id" : "57ebb3c5e8a0bda557420fe6",
     "key" : "Ryze",
@@ -3373,8 +3124,6 @@
     },
     "title" : "Ryze"
   },
-
-  /* 126 */
   {
     "_id" : "57ebb3c5e8a0bda557420fe7",
     "key" : "Diana",
@@ -3400,8 +3149,6 @@
     },
     "title" : "Diana"
   },
-
-  /* 127 */
   {
     "_id" : "57ebb3c5e8a0bda557420fe8",
     "key" : "Zyra",
@@ -3427,8 +3174,6 @@
     },
     "title" : "Zyra"
   },
-
-  /* 128 */
   {
     "_id" : "57ebb3c5e8a0bda557420fe9",
     "key" : "Lissandra",
@@ -3454,8 +3199,6 @@
     },
     "title" : "Lissandra"
   },
-
-  /* 129 */
   {
     "_id" : "57ebb3c5e8a0bda557420fea",
     "key" : "Kayle",
@@ -3481,8 +3224,6 @@
     },
     "title" : "Kayle"
   },
-
-  /* 130 */
   {
     "_id" : "57ebb3c5e8a0bda557420feb",
     "key" : "Viktor",
@@ -3508,8 +3249,6 @@
     },
     "title" : "Viktor"
   },
-
-  /* 131 */
   {
     "_id" : "57ebb3c5e8a0bda557420fec",
     "key" : "Veigar",
@@ -3535,8 +3274,6 @@
     },
     "title" : "Veigar"
   },
-
-  /* 132 */
   {
     "_id" : "57ebb3c5e8a0bda557420fed",
     "key" : "Kennen",
@@ -3562,8 +3299,6 @@
     },
     "title" : "Kennen"
   },
-
-  /* 133 */
   {
     "_id" : "57ebb3c5e8a0bda557420fee",
     "key" : "Jayce",
@@ -3589,8 +3324,6 @@
     },
     "title" : "Jayce"
   },
-
-  /* 134 */
   {
     "_id" : "57ebb3c5e8a0bda557420fef",
     "key" : "TwistedFate",
@@ -3616,8 +3349,6 @@
     },
     "title" : "Twisted Fate"
   },
-
-  /* 135 */
   {
     "_id" : "57ebb3c5e8a0bda557420ff0",
     "key" : "Fizz",
@@ -3643,8 +3374,6 @@
     },
     "title" : "Fizz"
   },
-
-  /* 136 */
   {
     "_id" : "57ebb3c5e8a0bda557420ff1",
     "key" : "Katarina",
@@ -3670,8 +3399,6 @@
     },
     "title" : "Katarina"
   },
-
-  /* 137 */
   {
     "_id" : "57ebb3c5e8a0bda557420ff2",
     "key" : "Velkoz",
@@ -3697,8 +3424,6 @@
     },
     "title" : "Vel'Koz"
   },
-
-  /* 138 */
   {
     "_id" : "57ebb3c5e8a0bda557420ff3",
     "key" : "Zed",
@@ -3724,8 +3449,6 @@
     },
     "title" : "Zed"
   },
-
-  /* 139 */
   {
     "_id" : "57ebb3c5e8a0bda557420ff4",
     "key" : "Brand",
@@ -3751,8 +3474,6 @@
     },
     "title" : "Brand"
   },
-
-  /* 140 */
   {
     "_id" : "57ebb3c5e8a0bda557420ff5",
     "key" : "Gangplank",
@@ -3778,8 +3499,6 @@
     },
     "title" : "Gangplank"
   },
-
-  /* 141 */
   {
     "_id" : "57ebb3c5e8a0bda557420ff6",
     "key" : "Annie",
@@ -3805,8 +3524,6 @@
     },
     "title" : "Annie"
   },
-
-  /* 142 */
   {
     "_id" : "57ebb3c5e8a0bda557420ff7",
     "key" : "Syndra",
@@ -3832,8 +3549,6 @@
     },
     "title" : "Syndra"
   },
-
-  /* 143 */
   {
     "_id" : "57ebb3c5e8a0bda557420ff8",
     "key" : "Orianna",
@@ -3859,8 +3574,6 @@
     },
     "title" : "Orianna"
   },
-
-  /* 144 */
   {
     "_id" : "57ebb3c5e8a0bda557420ff9",
     "key" : "Karma",
@@ -3886,8 +3599,6 @@
     },
     "title" : "Karma"
   },
-
-  /* 145 */
   {
     "_id" : "57ebb3c5e8a0bda557420ffa",
     "key" : "Leblanc",
@@ -3913,8 +3624,6 @@
     },
     "title" : "LeBlanc"
   },
-
-  /* 146 */
   {
     "_id" : "57ebb3c5e8a0bda557420ffb",
     "key" : "Ekko",
@@ -3940,8 +3649,6 @@
     },
     "title" : "Ekko"
   },
-
-  /* 147 */
   {
     "_id" : "57ebb3c5e8a0bda557420ffc",
     "key" : "Yasuo",
@@ -3967,8 +3674,6 @@
     },
     "title" : "Yasuo"
   },
-
-  /* 148 */
   {
     "_id" : "57ebb3c5e8a0bda557420ffd",
     "key" : "Lux",
@@ -3994,8 +3699,6 @@
     },
     "title" : "Lux"
   },
-
-  /* 149 */
   {
     "_id" : "57ebb3c5e8a0bda557420ffe",
     "key" : "Ahri",
@@ -4021,8 +3724,6 @@
     },
     "title" : "Ahri"
   },
-
-  /* 150 */
   {
     "_id" : "57ebb3c5e8a0bda557420fff",
     "key" : "Morgana",
@@ -4048,8 +3749,6 @@
     },
     "title" : "Morgana"
   },
-
-  /* 151 */
   {
     "_id" : "57ebb3c5e8a0bda557421000",
     "key" : "Kalista",
@@ -4075,8 +3774,6 @@
     },
     "title" : "Kalista"
   },
-
-  /* 152 */
   {
     "_id" : "57ebb3c5e8a0bda557421001",
     "key" : "Quinn",
@@ -4102,8 +3799,6 @@
     },
     "title" : "Quinn"
   },
-
-  /* 153 */
   {
     "_id" : "57ebb3c5e8a0bda557421002",
     "key" : "KogMaw",
@@ -4129,8 +3824,6 @@
     },
     "title" : "Kog'Maw"
   },
-
-  /* 154 */
   {
     "_id" : "57ebb3c5e8a0bda557421003",
     "key" : "Varus",
@@ -4156,8 +3849,6 @@
     },
     "title" : "Varus"
   },
-
-  /* 155 */
   {
     "_id" : "57ebb3c5e8a0bda557421004",
     "key" : "Corki",
@@ -4183,8 +3874,6 @@
     },
     "title" : "Corki"
   },
-
-  /* 156 */
   {
     "_id" : "57ebb3c5e8a0bda557421005",
     "key" : "Twitch",
@@ -4210,8 +3899,6 @@
     },
     "title" : "Twitch"
   },
-
-  /* 157 */
   {
     "_id" : "57ebb3c5e8a0bda557421006",
     "key" : "Sivir",
@@ -4237,8 +3924,6 @@
     },
     "title" : "Sivir"
   },
-
-  /* 158 */
   {
     "_id" : "57ebb3c5e8a0bda557421007",
     "key" : "Draven",
@@ -4264,8 +3949,6 @@
     },
     "title" : "Draven"
   },
-
-  /* 159 */
   {
     "_id" : "57ebb3c5e8a0bda557421008",
     "key" : "Ashe",
@@ -4291,8 +3974,6 @@
     },
     "title" : "Ashe"
   },
-
-  /* 160 */
   {
     "_id" : "57ebb3c5e8a0bda557421009",
     "key" : "Tristana",
@@ -4318,8 +3999,6 @@
     },
     "title" : "Tristana"
   },
-
-  /* 161 */
   {
     "_id" : "57ebb3c5e8a0bda55742100a",
     "key" : "MissFortune",
@@ -4345,8 +4024,6 @@
     },
     "title" : "Miss Fortune"
   },
-
-  /* 162 */
   {
     "_id" : "57ebb3c5e8a0bda55742100b",
     "key" : "Caitlyn",
@@ -4373,7 +4050,7 @@
     "title" : "Caitlyn"
   },
 
-  /* 163 */
+
   {
     "_id" : "57ebb3c5e8a0bda55742100c",
     "key" : "Jhin",
@@ -4400,7 +4077,6 @@
     "title" : "Jhin"
   },
 
-  /* 164 */
   {
     "_id" : "57ebb3c5e8a0bda55742100d",
     "key" : "Jinx",
@@ -4426,8 +4102,6 @@
     },
     "title" : "Jinx"
   },
-
-  /* 165 */
   {
     "_id" : "57ebb3c5e8a0bda55742100e",
     "key" : "Vayne",
@@ -4453,8 +4127,6 @@
     },
     "title" : "Vayne"
   },
-
-  /* 166 */
   {
     "_id" : "57ebb3c5e8a0bda55742100f",
     "key" : "Ezreal",
@@ -4480,8 +4152,6 @@
     },
     "title" : "Ezreal"
   },
-
-  /* 167 */
   {
     "_id" : "57ebb3c5e8a0bda557421010",
     "key" : "Lucian",
@@ -4507,8 +4177,6 @@
     },
     "title" : "Lucian"
   },
-
-  /* 168 */
   {
     "_id" : "57ebb3c5e8a0bda557421011",
     "key" : "Nunu",
@@ -4534,8 +4202,6 @@
     },
     "title" : "Nunu"
   },
-
-  /* 169 */
   {
     "_id" : "57ebb3c5e8a0bda557421012",
     "key" : "Sion",
@@ -4561,8 +4227,6 @@
     },
     "title" : "Sion"
   },
-
-  /* 170 */
   {
     "_id" : "57ebb3c5e8a0bda557421013",
     "key" : "Poppy",
@@ -4588,8 +4252,6 @@
     },
     "title" : "Poppy"
   },
-
-  /* 171 */
   {
     "_id" : "57ebb3c5e8a0bda557421014",
     "key" : "Taric",
@@ -4615,8 +4277,6 @@
     },
     "title" : "Taric"
   },
-
-  /* 172 */
   {
     "_id" : "57ebb3c5e8a0bda557421015",
     "key" : "Zilean",
@@ -4642,8 +4302,6 @@
     },
     "title" : "Zilean"
   },
-
-  /* 173 */
   {
     "_id" : "57ebb3c5e8a0bda557421016",
     "key" : "TahmKench",
@@ -4669,8 +4327,6 @@
     },
     "title" : "Tahm Kench"
   },
-
-  /* 174 */
   {
     "_id" : "57ebb3c5e8a0bda557421017",
     "key" : "Trundle",
@@ -4696,8 +4352,6 @@
     },
     "title" : "Trundle"
   },
-
-  /* 175 */
   {
     "_id" : "57ebb3c5e8a0bda557421018",
     "key" : "Zyra",
@@ -4723,8 +4377,6 @@
     },
     "title" : "Zyra"
   },
-
-  /* 176 */
   {
     "_id" : "57ebb3c5e8a0bda557421019",
     "key" : "Nautilus",
@@ -4750,8 +4402,6 @@
     },
     "title" : "Nautilus"
   },
-
-  /* 177 */
   {
     "_id" : "57ebb3c5e8a0bda55742101a",
     "key" : "Lulu",
@@ -4777,8 +4427,6 @@
     },
     "title" : "Lulu"
   },
-
-  /* 178 */
   {
     "_id" : "57ebb3c5e8a0bda55742101b",
     "key" : "Velkoz",
@@ -4804,8 +4452,6 @@
     },
     "title" : "Vel'Koz"
   },
-
-  /* 179 */
   {
     "_id" : "57ebb3c5e8a0bda55742101c",
     "key" : "Alistar",
@@ -4831,8 +4477,6 @@
     },
     "title" : "Alistar"
   },
-
-  /* 180 */
   {
     "_id" : "57ebb3c5e8a0bda55742101d",
     "key" : "Soraka",
@@ -4858,8 +4502,6 @@
     },
     "title" : "Soraka"
   },
-
-  /* 181 */
   {
     "_id" : "57ebb3c5e8a0bda55742101e",
     "key" : "Brand",
@@ -4885,8 +4527,6 @@
     },
     "title" : "Brand"
   },
-
-  /* 182 */
   {
     "_id" : "57ebb3c5e8a0bda55742101f",
     "key" : "Sona",
@@ -4912,8 +4552,6 @@
     },
     "title" : "Sona"
   },
-
-  /* 183 */
   {
     "_id" : "57ebb3c5e8a0bda557421020",
     "key" : "Annie",
@@ -4939,8 +4577,6 @@
     },
     "title" : "Annie"
   },
-
-  /* 184 */
   {
     "_id" : "57ebb3c5e8a0bda557421021",
     "key" : "Nami",
@@ -4966,8 +4602,6 @@
     },
     "title" : "Nami"
   },
-
-  /* 185 */
   {
     "_id" : "57ebb3c5e8a0bda557421022",
     "key" : "Karma",
@@ -4993,8 +4627,6 @@
     },
     "title" : "Karma"
   },
-
-  /* 186 */
   {
     "_id" : "57ebb3c5e8a0bda557421023",
     "key" : "Bard",
@@ -5020,8 +4652,6 @@
     },
     "title" : "Bard"
   },
-
-  /* 187 */
   {
     "_id" : "57ebb3c5e8a0bda557421024",
     "key" : "Leona",
@@ -5047,8 +4677,6 @@
     },
     "title" : "Leona"
   },
-
-  /* 188 */
   {
     "_id" : "57ebb3c5e8a0bda557421025",
     "key" : "Blitzcrank",
@@ -5074,8 +4702,6 @@
     },
     "title" : "Blitzcrank"
   },
-
-  /* 189 */
   {
     "_id" : "57ebb3c5e8a0bda557421026",
     "key" : "Lux",
@@ -5101,8 +4727,6 @@
     },
     "title" : "Lux"
   },
-
-  /* 190 */
   {
     "_id" : "57ebb3c5e8a0bda557421027",
     "key" : "Braum",
@@ -5128,8 +4752,6 @@
     },
     "title" : "Braum"
   },
-
-  /* 191 */
   {
     "_id" : "57ebb3c5e8a0bda557421028",
     "key" : "Morgana",
@@ -5155,8 +4777,6 @@
     },
     "title" : "Morgana"
   },
-
-  /* 192 */
   {
     "_id" : "57ebb3c5e8a0bda557421029",
     "key" : "Janna",
@@ -5182,8 +4802,6 @@
     },
     "title" : "Janna"
   },
-
-  /* 193 */
   {
     "_id" : "57ebb3c5e8a0bda55742102a",
     "key" : "Thresh",
