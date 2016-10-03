@@ -12,6 +12,7 @@ System.register("image-graph", ["angular2/core"], function($__export) {
       ImageGraph = function() {
         function ImageGraph() {
           var config = {"avatar_size": 50};
+          var patchVersion = "6.19.1";
           var margin = {
             top: 20,
             right: 20,
@@ -28,31 +29,31 @@ System.register("image-graph", ["angular2/core"], function($__export) {
             console.log(width);
             console.log(height);
             var x = d3.scale.linear().range([0, width]).domain([d3.min(data, function(d) {
-              return d.Weight - 5;
+              return d.general.winPercent - 5;
             }), d3.max(data, function(d) {
-              return d.Weight + 5;
+              return d.general.winPercent + 5;
             })]);
             var y = d3.scale.linear().range([height, 0]).domain([d3.min(data, function(d) {
-              return d.Height - 5;
+              return d.general.playPercent - 5;
             }), d3.max(data, function(d) {
-              return d.Height + 5;
+              return d.general.playPercent + 5;
             })]);
             var xAxis = d3.svg.axis().scale(x).orient("bottom");
             var yAxis = d3.svg.axis().scale(y).orient("left").ticks(5);
-            svg.append("g").attr("class", "x axis").attr("transform", "translate(0," + height + ")").call(xAxis).append("text").attr("class", "label").attr("x", width).attr("y", -6).style("text-anchor", "end").text("Weight (lbs)");
-            svg.append("g").attr("class", "y axis").call(yAxis).append("text").attr("class", "label").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", ".71em").style("text-anchor", "end").text("Height (foot)");
+            svg.append("g").attr("class", "x axis").attr("transform", "translate(0," + height + ")").call(xAxis).append("text").attr("class", "label").attr("x", width).attr("y", -6).style("text-anchor", "end").text("Win (%)");
+            svg.append("g").attr("class", "y axis").call(yAxis).append("text").attr("class", "label").attr("transform", "rotate(-90)").attr("y", 6).attr("dy", ".71em").style("text-anchor", "end").text("Play (%)");
             var tip = d3.tip().attr('class', 'd3-tip').offset([-10, 0]).html(function(d) {
-              return "<strong> " + d.Name + " </strong>" + "<br>" + "<strong>Weight:</strong> <span>" + d.Weight + "</span> " + "<br>" + "<strong>Height:</strong> <span>" + d.Height + "</span> ";
+              return "<strong> " + d.key + " </strong>" + "<br>" + "<strong>winPercent:</strong> <span>" + d.general.winPercent + "</span> " + "<br>" + "<strong>playPercent:</strong> <span>" + d.general.playPercent + "</span> ";
             });
             svg.call(tip);
             var defs = svg.append('svg:defs');
             data.forEach(function(d, i) {
-              defs.append("svg:pattern").attr("id", "grump_avatar" + i).attr("width", config.avatar_size).attr("height", config.avatar_size).append("svg:image").attr("xlink:href", d.image).attr("width", config.avatar_size).attr("height", config.avatar_size);
+              defs.append("svg:pattern").attr("id", "grump_avatar" + i).attr("width", config.avatar_size).attr("height", config.avatar_size).append("svg:image").attr("xlink:href", "//ddragon.leagueoflegends.com/cdn/" + patchVersion + "/img/champion/" + d.key + ".png").attr("width", config.avatar_size).attr("height", config.avatar_size);
             });
             svg.selectAll(".dot").data(data).enter().append("circle").attr("cx", function(d) {
-              return x(d.Weight);
+              return x(d.general.winPercent);
             }).attr("cy", function(d) {
-              return y(d.Height);
+              return y(d.general.playPercent);
             }).attr("r", config.avatar_size / 2).on('mouseover', tip.show).on('mouseout', tip.hide);
           });
         }

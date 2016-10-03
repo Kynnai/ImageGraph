@@ -17,6 +17,7 @@ export class ImageGraph {
       "avatar_size": 50
     };
 
+    var patchVersion = "6.19.1";
 
     //Set base chart
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
@@ -41,13 +42,13 @@ export class ImageGraph {
 
       var x = d3.scale.linear()
           .range([0, width])
-          .domain([d3.min(data, function(d) { return d.Weight - 5; }),
-            d3.max(data, function(d) { return d.Weight + 5; })]);
+          .domain([d3.min(data, function(d) { return d.general.winPercent - 5; }),
+            d3.max(data, function(d) { return d.general.winPercent + 5; })]);
 
       var y = d3.scale.linear()
           .range([height, 0])
-          .domain([d3.min(data, function(d) { return d.Height - 5; }),
-            d3.max(data, function(d) { return d.Height + 5; })]);
+          .domain([d3.min(data, function(d) { return d.general.playPercent - 5; }),
+            d3.max(data, function(d) { return d.general.playPercent + 5; })]);
 
       //Set Axis
       var xAxis = d3.svg.axis()
@@ -69,7 +70,7 @@ export class ImageGraph {
           .attr("x", width)
           .attr("y", -6)
           .style("text-anchor", "end")
-          .text("Weight (lbs)");
+          .text("Win (%)");
 
       svg.append("g")
           .attr("class", "y axis")
@@ -80,7 +81,7 @@ export class ImageGraph {
           .attr("y", 6)
           .attr("dy", ".71em")
           .style("text-anchor", "end")
-          .text("Height (foot)");
+          .text("Play (%)");
 
 
       //Load tip
@@ -88,11 +89,11 @@ export class ImageGraph {
           .attr('class', 'd3-tip')
           .offset([-10, 0])
           .html(function(d) {
-            return "<strong> " + d.Name + " </strong>" +
-                   "<br>" +
-                   "<strong>Weight:</strong> <span>" + d.Weight + "</span> " +
-                   "<br>" +
-                   "<strong>Height:</strong> <span>" + d.Height + "</span> ";
+            return "<strong> " + d.key + " </strong>" +
+                "<br>" +
+                "<strong>winPercent:</strong> <span>" + d.general.winPercent + "</span> " +
+                "<br>" +
+                "<strong>playPercent:</strong> <span>" + d.general.playPercent + "</span> ";
           });
 
       svg.call(tip);
@@ -107,7 +108,7 @@ export class ImageGraph {
             .attr("width", config.avatar_size)
             .attr("height", config.avatar_size)
             .append("svg:image")
-            .attr("xlink:href", d.image)
+            .attr("xlink:href", "//ddragon.leagueoflegends.com/cdn/" + patchVersion + "/img/champion/" + d.key + ".png")
             .attr("width", config.avatar_size)
             .attr("height", config.avatar_size);
       });
@@ -115,8 +116,8 @@ export class ImageGraph {
       svg.selectAll(".dot")
           .data(data)
           .enter().append("circle")
-          .attr("cx", function(d) { return x(d.Weight); })
-          .attr("cy", function(d) { return y(d.Height); })
+          .attr("cx", function(d) { return x(d.general.winPercent); })
+          .attr("cy", function(d) { return y(d.general.playPercent); })
           .attr("r", config.avatar_size/2)
           //.style("fill", function(d){
           //  return "url(pictures/WHE120992.png)";
