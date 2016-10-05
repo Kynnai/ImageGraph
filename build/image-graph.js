@@ -23,7 +23,7 @@ System.register("image-graph", ["angular2/core"], function($__export) {
               height = 500 - margin.top - margin.bottom;
           var svg = d3.select("body").append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
           var color = d3.scale.category10();
-          d3.json("data.json", function(error, data) {
+          d3.json("dataNFL.json", function(error, data) {
             if (error)
               throw error;
             console.log(width);

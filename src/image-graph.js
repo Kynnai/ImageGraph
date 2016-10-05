@@ -34,7 +34,7 @@ export class ImageGraph {
 
 
     //Load data
-    d3.json("data.json", function(error, data) {
+    d3.json("dataNFL.json", function(error, data) {
       if (error) throw error;
 
       console.log(width);
