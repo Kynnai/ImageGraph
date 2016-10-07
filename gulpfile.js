@@ -22,6 +22,7 @@ gulp.task('watch', function () {
   gulp.watch('src/**/*.js', ['js']);
   gulp.watch('src/**/*.html', ['html']);
   gulp.watch('src/**/*.css', ['css']);
+  gulp.watch('src/**/*.json', ['json']);
 });
 
 // move dependencies into build dir
@@ -69,4 +70,10 @@ gulp.task('html', function () {
 gulp.task('css', function () {
   return gulp.src('src/**/*.css')
     .pipe(gulp.dest('build'))
+});
+
+// move json
+gulp.task('json', function () {
+  return gulp.src('src/**/*.json')
+      .pipe(gulp.dest('build'))
 });
